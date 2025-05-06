@@ -68,3 +68,23 @@ https://github.com/NuGet/Home/wiki/Embedding-and-displaying-NuGet-READMEs
 ```
 
 !["NuGet Package Explorer"](images/NuGet_Package_Explorer-5.png "NuGet Package Explorer")
+
+---
+
+# VS
+
+![VS](images/nuget-package-properties-1.png "VS")
+![VS](images/nuget-package-properties-2.png "VS")
+![VS](images/nuget-package-properties-3.png "VS")
+
+---
+
+## Others
+
+!["NuGet Package Explorer"](images/NuGet_Package_Explorer-6.png "NuGet Package Explorer")
+
+- requireLicenseAcceptance
+- projectUrl
+- licenseUrl `<license type="expression">MIT</license>`
+- repository
+- copyright ?
