@@ -8,10 +8,10 @@
     <Nullable>enable</Nullable>
 
     <!-- package properties -->
-    <PackageId>microsoft.botsay</PackageId>
+    <PackageId>alexhedley.botsay</PackageId>
     <Version>1.0.0</Version>
     <Authors>Alex Hedley</Authors>
-    <Company>Microsoft</Company>
+    <Company>Alex Hedley</Company>
     <Product>Microsoft BotSay</Product>
 
     <Title>Microsoft Bot Say</Title>
