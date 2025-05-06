@@ -50,3 +50,21 @@ Use https://mod-dotnet-bot.net/gallery/
 > Size recommendation - 128x128 (on nuget.org we use a max of 76.5x76.5 and in VS 32x32)
 
 !["NuGet Package Explorer"](images/NuGet_Package_Explorer-4.png "NuGet Package Explorer")
+
+## Readme
+
+https://github.com/NuGet/Home/wiki/Embedding-and-displaying-NuGet-READMEs
+
+```xml
+<PropertyGroup>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+</PropertyGroup>
+```
+
+```xml
+<ItemGroup>
+    <None Include="..\assets\README.md" Pack="true" PackagePath=""/>
+</ItemGroup>
+```
+
+!["NuGet Package Explorer"](images/NuGet_Package_Explorer-5.png "NuGet Package Explorer")

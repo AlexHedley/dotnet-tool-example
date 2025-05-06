@@ -16,6 +16,7 @@
     <PackageTags>Microsoft;Bot;Say</PackageTags>
     <Description>This tool is a console application that takes a message as input and displays the message along with lines of text that create the image of a robot.</Description>
     <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
 
     <!-- Tool settings -->
     <PackAsTool>true</PackAsTool>
@@ -26,6 +27,7 @@
 
   <ItemGroup>
     <None Include="images\icon.png" Pack="true" PackagePath=""/>
+    <None Include="..\assets\README.md" Pack="true" PackagePath=""/>
   </ItemGroup>
 
 </Project>
