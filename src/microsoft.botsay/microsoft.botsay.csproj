@@ -14,10 +14,13 @@
     <Company>Microsoft</Company>
     <Product>Microsoft BotSay</Product>
 
+    <Title>Microsoft Bot Say</Title>
     <PackageTags>Microsoft;Bot;Say</PackageTags>
     <Description>This tool is a console application that takes a message as input and displays the message along with lines of text that create the image of a robot.</Description>
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <!-- <PackageLicenseExpression>MIT</PackageLicenseExpression> -->
     <PackageReleaseNotes>Release Notes are the following...</PackageReleaseNotes>
     <RepositoryType>git</RepositoryType>
@@ -29,8 +32,6 @@
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>botsay</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
-    <Title>Microsoft Bot Say</Title>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <!-- <GeneratePackageOnBuild>true</GeneratePackageOnBuild> -->
   </PropertyGroup>
 
