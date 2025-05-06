@@ -50,3 +50,47 @@ dotnet new tool-manifest
 
 > The template "Dotnet local tool manifest file" was created successfully.
 
+```bash
+dotnet tool install --add-source ./microsoft.botsay/nupkg microsoft.botsay
+```
+
+> You can invoke the tool from this directory using the following command:  
+> 'dotnet tool run botsay' or 'dotnet botsay'  
+> Tool 'microsoft.botsay' (version '1.0.0') was successfully installed.  
+> Entry is added to the manifest file /home/name/repository/.config/dotnet-tools.json
+
+- [dotnet-tools.json](../src/.config/dotnet-tools.json)
+
+Use
+
+```bash
+dotnet tool run botsay hello from the bot
+```
+
+Restore 
+
+```bash
+dotnet tool list
+```
+
+```bash
+Package Id            Version      Commands      Manifest
+----------------------------------------------------------------------------------
+microsoft.botsay      1.0.0        botsay        ...\src\.config\dotnet-tools.json
+```
+
+Update
+
+```bash
+dotnet tool update dotnetsay
+```
+
+Remove
+
+```bash
+dotnet tool uninstall microsoft.botsay
+```
+
+```bash
+dotnet tool uninstall dotnetsay
+```
