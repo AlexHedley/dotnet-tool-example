@@ -8,16 +8,24 @@
     <Nullable>enable</Nullable>
 
     <!-- package properties -->
-    <PackageId>UniqueID</PackageId>
+    <PackageId>microsoft.botsay</PackageId>
     <Version>1.0.0</Version>
-    <Authors>Author Name</Authors>
-    <Company>Company Name</Company>
-    <Product>Product Name</Product>
+    <Authors>Alex Hedley</Authors>
+    <Company>Microsoft</Company>
+    <Product>Microsoft BotSay</Product>
+    <PackageTags>Microsoft;Bot;Say</PackageTags>
+    <Description>This tool is a console application that takes a message as input and displays the message along with lines of text that create the image of a robot.</Description>
+    <PackageIcon>icon.png</PackageIcon>
 
     <!-- Tool settings -->
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>botsay</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
+    <!-- <GeneratePackageOnBuild>true</GeneratePackageOnBuild> -->
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="images\icon.png" Pack="true" PackagePath=""/>
+  </ItemGroup>
 
 </Project>

@@ -1,5 +1,7 @@
 # Docs
 
+- [Package](PACKAGE.md)
+
 ## Articles
 
 - Tutorial: Create a .NET tool using the .NET CLI
