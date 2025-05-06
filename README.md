@@ -7,6 +7,10 @@
 [![Dependabot](https://img.shields.io/badge/dependabot-025E8C?style=for-the-badge&logo=dependabot&logoColor=white)](https://github.com/AlexHedley/dotnet-tool-example/security/dependabot)
 [![Dependency-Check](https://img.shields.io/badge/DependencyCheck-f78d0a.svg?style=for-the-badge&logo=dependencycheck&logoColor=white)](https://alexhedley.com/dotnet-tool-example/reports/dependency-check-report.html)
 
+[![CodeQL](https://github.com/AlexHedley/dotnet-tool-example/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/AlexHedley/dotnet-tool-example/actions/workflows/github-code-scanning/codeql)
+[![Dependabot Updates](https://github.com/AlexHedley/dotnet-tool-example/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/AlexHedley/dotnet-tool-example/actions/workflows/dependabot/dependabot-updates)
+[![Dependency Check](https://github.com/AlexHedley/dotnet-tool-example/actions/workflows/depcheck.yml/badge.svg)](https://github.com/AlexHedley/dotnet-tool-example/actions/workflows/depcheck.yml)
+
 ## Tests
 
 - TBA
