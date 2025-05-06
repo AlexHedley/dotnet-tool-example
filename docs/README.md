@@ -40,3 +40,13 @@ dotnet tool uninstall -g microsoft.botsay
 - Tutorial: Install and use a .NET local tool using the .NET CLI
   - https://learn.microsoft.com/en-us/dotnet/core/tools/local-tools-how-to-use
 
+```bash
+cd ..
+```
+
+```bash
+dotnet new tool-manifest
+```
+
+> The template "Dotnet local tool manifest file" was created successfully.
+
